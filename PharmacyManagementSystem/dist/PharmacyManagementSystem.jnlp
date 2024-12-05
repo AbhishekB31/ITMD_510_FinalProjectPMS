@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PharmacyManagementSystem.jnlp">
+  <information>
+    <title>PharmacyManagementSystem</title>
+    <vendor>WINDOWS 10</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PharmacyManagementSystem.jar" size="26843" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
+    <jar href="lib\hamcrest-core-1.3.jar" size="45024" download="eager" />
+    <jar href="lib\jcommon-1.0.23.jar" size="330246" download="eager" />
+    <jar href="lib\jfreechart-1.0.19-demo.jar" size="1437338" download="eager" />
+    <jar href="lib\jfreechart-1.0.19-experimental.jar" size="13796" download="eager" />
+    <jar href="lib\jfreechart-1.0.19-swt.jar" size="79793" download="eager" />
+    <jar href="lib\jfreechart-1.0.19.jar" size="1570157" download="eager" />
+    <jar href="lib\jfreesvg-2.0.jar" size="50769" download="eager" />
+    <jar href="lib\junit-4.11.jar" size="245039" download="eager" />
+    <jar href="lib\mysql-connector-j-8.3.0.jar" size="2495536" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.48.jar" size="1006956" download="eager" />
+    <jar href="lib\ojdbc14-10.2.0.2.0.jar" size="1545954" download="eager" />
+    <jar href="lib\orsoncharts-1.4-eval-nofx.jar" size="445025" download="eager" />
+    <jar href="lib\orsonpdf-1.6-eval.jar" size="72444" download="eager" />
+    <jar href="lib\servlet.jar" size="80054" download="eager" />
+    <jar href="lib\swtgraphics2d.jar" size="17492" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PharmacyManagementSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pharmacymanagementsystem.PharmacyManagementSystem"  name="PharmacyManagementSystem" />
+  <update check="always"/>
+</jnlp>
